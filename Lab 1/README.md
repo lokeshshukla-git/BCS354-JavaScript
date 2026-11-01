@@ -2,11 +2,16 @@ STANDARD LAB PRACTICAL EXPERIMENT FORMAT
 
 EXPERIMENT NO. 1
 
-1. Experiment Title: Your First JavaScript Script
+1. Experiment Title: Your First JavaScript Script.
+
 2. Aim: Run a script in browser and with Node, and declare values with const and let.
+
 3. Software / Tools Required: Visual Studio Code, Chrome Browser, Node.js
+
 4. Theory: JavaScript runs inside <script> tag in browser. console.log prints in console. const cannot be changed, let can be changed. typeof returns data type.
-5. Algorithm / Procedure: 1. Create folder Assignment 1 2. Create task1.html with script tag inside body console.log("Hello from the script") 3. Open in Chrome F12 console 4. Create task2.js const schoolName="Sample College" let year=2026 console.log 5. Run with node task2.js 6. Create task3.js console.log(typeof "hello") etc 7. Take screenshot
+
+5. Algorithm / Procedure: 1. Create folder Assignment 1  2. Create task1.html with script tag inside body console.log("Hello from the script")  3. Open in Chrome F12 console  4. Create task2.js const schoolName="Sample College" let year=2026 console.log  5. Run with node task2.js  6. Create task3.js console.log(typeof "hello") etc 7. Take screenshot
+
 6. Program / Queries / Commands:
    
 task1.html:
