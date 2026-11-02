@@ -1,51 +1,127 @@
-STANDARD LAB PRACTICAL EXPERIMENT FORMAT
+# Experiment No. 1
 
-EXPERIMENT NO. 1
+## 1. Experiment Title
+Your First JavaScript Script
 
-1. Experiment Title: Your First JavaScript Script.
+## 2. Aim
+Run a script in the browser and with Node, and declare values with const and let.
 
-2. Aim: Run a script in browser and with Node, and declare values with const and let.
+## 3. Software / Tools Required
+- Programming language: JavaScript
+- Code editor: Visual Studio Code
+- Runtime: Node.js for `.js` programs
+- Web browser: Microsoft Edge or Google Chrome for `.html` programs and DOM tasks
 
-3. Software / Tools Required: Visual Studio Code, Chrome Browser, Node.js
+## 4. Theory
+JavaScript is a programming language used to make web pages interactive. It can run inside web browsers and with Node.js. Variables are declared using "let" and "const". The "console.log()" method displays output, while the "typeof" operator identifies the data type of a value.
 
-4. Theory: JavaScript runs inside <script> tag in browser. console.log prints in console. const cannot be changed, let can be changed. typeof returns data type.
+## 5. Algorithm / Procedure
 
-5. Algorithm / Procedure: 1. Create folder Assignment 1  2. Create task1.html with script tag inside body console.log("Hello from the script")  3. Open in Chrome F12 console  4. Create task2.js const schoolName="Sample College" let year=2026 console.log  5. Run with node task2.js  6. Create task3.js console.log(typeof "hello") etc 7. Take screenshot
+### Task 1: JavaScript in an HTML Page
+1. Create an HTML page with a body script; call console.log with the required message; open the page and inspect the browser console.
+2. Run or open the corresponding program file.
+3. Observe the console or browser result.
 
-6. Program / Queries / Commands:
-   
-task1.html:
+### Task 2: const and let Variables
+1. Declare schoolName with const and year with let; print both values on separate lines; run the file with Node.js.
+2. Run or open the corresponding program file.
+3. Observe the console or browser result.
 
-<!-- Name: Lokesh Shukla | Roll No: 2510303281 | Assignment: 1 Task 1 -->
+### Task 3: The typeof Operator
+1. Pass a string, a number, and a Boolean value to typeof; print each returned type on a separate line.
+2. Run or open the corresponding program file.
+3. Observe the console or browser result.
 
-<html><body><script>console.log("Hello from the script");</script></body></html>
+## 6. Program / Queries / Commands
 
+### Task 1: `task1.html`
+```html
+<!--
+Name: LOKESH SHUKLA
+Roll No: 2510303281
+Assignment No: 1
+Task No: 1
+-->
 
-task2.js:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First JavaScript</title>
+</head>
+<body>
 
-// Name: Lokesh Shukla | Roll No: 2510303281| Assignment: 1 Task 2 
+    <h1>My First JavaScript Program</h1>
 
-const schoolName="Sample College"; let year=2026; console.log(schoolName); console.log(year);
+    <script>
+        console.log("Hello from the script");
+    </script>
 
-task3.js:
+</body>
+</html>
+```
 
-// Name: Lokesh Shukla | Roll No: 2510303281 | Assignment: 1 Task 3
+### Task 2: `task2.js`
+```javascript
+/*
+Name: LOKESH SHUKLA
+Roll No: 2510303281
+Assignment No: 1
+Task No: 2
+*/
 
-console.log(typeof "hello"); console.log(typeof 7); console.log(typeof true);
+const schoolName = "Sample College";
+let year = 2026;
 
-7. Input: File name: task1.html, task2.js, task3.js
-   
-8. Output: Browser console shows Hello from the script. Node shows Sample College 2026 and string number boolean. Screenshot in images folder.
-   
-9. Result: Experiment performed successfully.
-    
-10. Viva-Voce Questions:
-    
-Q1. What is console.log?
+console.log(schoolName);
+console.log(year);
+```
 
-Q2. Difference const let?
+### Task 3: `task3.js`
+```javascript
 
-Q3. What is typeof?
+/*Name: LOKESH SHUKLA
+Roll No: 2510303281
+Assignment No: 1
+Task No: 3
+*/
+console.log(typeof "hello");
+console.log(typeof 7);
+console.log(typeof true);
+```
 
-Q4. How to run with node?
-    
+## 7. Input
+
+- **Task 1:** No keyboard input; the script prints a fixed message.
+
+- **Task 2:** schoolName = "Sample College"; year = 2026.
+
+- **Task 3:** Values tested: "hello", 7, and true.
+
+## 8. Output
+
+### Task 1: JavaScript in an HTML Page
+```text
+Page heading: My First JavaScript Program
+Browser console: Hello from the script
+```
+
+### Task 2: const and let Variables
+```text
+Sample College
+2026
+```
+
+### Task 3: The typeof Operator
+```text
+string
+number
+boolean
+```
+
+## 9. Result
+The tasks in Experiment 1 demonstrate the listed JavaScript concepts, and their text outputs are shown above.
+
+## 10. Viva-Voce Questions
+1. Where can an inline script be placed in an HTML page?
+2. What is the difference between let and const?
+3. What value does typeof return for a string?
