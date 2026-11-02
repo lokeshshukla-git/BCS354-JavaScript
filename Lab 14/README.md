@@ -1,0 +1,130 @@
+# Experiment No. 14
+
+## 1. Experiment Title
+Timers and Intervals
+
+## 2. Aim
+Run code after a delay with setTimeout, cancel a timer, and repeat code with setInterval.
+
+## 3. Software / Tools Required
+- Programming language: JavaScript
+- Code editor: Visual Studio Code
+- Runtime: Node.js for `.js` programs
+- Web browser: Microsoft Edge or Google Chrome for `.html` programs and DOM tasks
+
+## 4. Theory
+JavaScript provides timer functions to control when code executes. The "setTimeout()" method executes code after a specified delay, while "clearTimeout()" cancels a scheduled timer. The "setInterval()" method repeatedly executes code after a fixed time interval, and "clearInterval()" stops it.
+
+## 5. Algorithm / Procedure
+
+### Task 1: Zero-Delay setTimeout
+1. Print Start; schedule Timer done using setTimeout with delay 0; print End synchronously.
+2. Run or open the corresponding program file.
+3. Observe the console or browser result.
+
+### Task 2: Cancel a Timeout
+1. Schedule Not shown after 1000 ms; save the timer ID; cancel it; print Cancelled.
+2. Run or open the corresponding program file.
+3. Observe the console or browser result.
+
+### Task 3: Stop an Interval after Three Ticks
+1. Use setInterval every 200 ms; increment and print count; clear the interval when count reaches 3.
+2. Run or open the corresponding program file.
+3. Observe the console or browser result.
+
+## 6. Program / Queries / Commands
+
+### Task 1: `task1.js`
+```javascript
+/*
+Name: LOKESH SHUKLA
+Roll No: 2510303281
+Assignment No: 14
+Task No: 1
+*/
+
+console.log("Start");
+
+setTimeout(() => {
+    console.log("Timer done");
+}, 0);
+
+console.log("End");
+```
+
+### Task 2: `task2.js`
+```javascript
+/*
+Name: LOKESH SHUKLA
+Roll No: 2510303281
+Assignment No: 14
+Task No: 2
+*/
+
+let timer = setTimeout(() => {
+    console.log("Not shown");
+}, 1000);
+
+clearTimeout(timer);
+
+console.log("Cancelled");
+```
+
+### Task 3: `task3.js`
+```javascript
+/*
+Name: LOKESH SHUKLA
+Roll No: 2510303281
+Assignment No: 14
+Task No: 3
+*/
+
+let count = 0;
+
+let timer = setInterval(() => {
+    count++;
+
+    console.log("Tick " + count);
+
+    if (count === 3) {
+        clearInterval(timer);
+    }
+}, 200);
+```
+
+## 7. Input
+
+- **Task 1:** Delay = 0 ms.
+
+- **Task 2:** Delay = 1000 ms; timeout is cancelled before it fires.
+
+- **Task 3:** Interval = 200 ms; stop count = 3.
+
+## 8. Output
+
+### Task 1: Zero-Delay setTimeout
+```text
+Start
+End
+Timer done
+```
+
+### Task 2: Cancel a Timeout
+```text
+Cancelled
+```
+
+### Task 3: Stop an Interval after Three Ticks
+```text
+Tick 1
+Tick 2
+Tick 3
+```
+
+## 9. Result
+The tasks in Experiment 14 demonstrate the listed JavaScript concepts, and their text outputs are shown above.
+
+## 10. Viva-Voce Questions
+1. Does a zero-delay timeout run immediately?
+2. What does clearTimeout need?
+3. How does clearInterval stop repeating work?
