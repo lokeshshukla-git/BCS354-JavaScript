@@ -15,11 +15,7 @@ Run a script in the browser and with Node, and declare values with const and let
 ## 4. Theory
 JavaScript is a programming language used to make web pages interactive. It can run inside web browsers and with Node.js. Variables are declared using "let" and "const". The "console.log()" method displays output, while the "typeof" operator identifies the data type of a value.
 
-<<<<<<< HEAD
 ## 5. Program / Queries / Commands
-=======
-## 6. Program / Queries / Commands
->>>>>>> 4d0a08362776a313cc7bc0fcdb61fc481a99eb01
 
 ### Task 1: `task1.html`
 ```html
@@ -76,11 +72,8 @@ console.log(typeof 7);
 console.log(typeof true);
 ```
 
-<<<<<<< HEAD
+
 ## 6. Input
-=======
-## 7. Input
->>>>>>> 4d0a08362776a313cc7bc0fcdb61fc481a99eb01
 
 - **Task 1:** No keyboard input; the script prints a fixed message.
 
@@ -88,11 +81,8 @@ console.log(typeof true);
 
 - **Task 3:** Values tested: "hello", 7, and true.
 
-<<<<<<< HEAD
+
 ## 7. Output
-=======
-## 8. Output
->>>>>>> 4d0a08362776a313cc7bc0fcdb61fc481a99eb01
 
 ### Task 1: JavaScript in an HTML Page
 ```text
@@ -113,17 +103,12 @@ number
 boolean
 ```
 
-<<<<<<< HEAD
+
 ## 8. Result
 The tasks in Experiment 1 demonstrate the listed JavaScript concepts, and their text outputs are shown above.
 
-## 9. Viva-Voce Questions
-=======
-## 9. Result
-The tasks in Experiment 1 demonstrate the listed JavaScript concepts, and their text outputs are shown above.
 
 ## 10. Viva-Voce Questions
->>>>>>> 4d0a08362776a313cc7bc0fcdb61fc481a99eb01
 1. Where can an inline script be placed in an HTML page?
 2. What is the difference between let and const?
 3. What value does typeof return for a string?
